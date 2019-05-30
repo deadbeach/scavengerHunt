@@ -1,0 +1,85 @@
+".container" : {
+
+},
+"#pageWrapper" : {
+    layout : "composite",
+    top    : 0,
+    bottom : 0,
+    left   : 0,
+    right  : 0,
+    height : Ti.UI.FILL,
+    width  : Ti.UI.FILL,
+},
+"#titleBar" : {
+    top             : 0,
+    left            : 0,
+    right           : 0,
+    height          : '50dp',
+    backgroundColor : '#CC303B3E', //CC -> alpha channel value.  CC == 80%
+},
+"#titleLabel" : {
+    color : '#FFF',
+    font  : {
+        fontSize   : Alloy.Globals.headingSize,
+        fontFamily : Alloy.Globals.schoolsFont
+    }
+},
+"#footerBar" : {
+    left            : 0,
+    right           : 0,
+    bottom          : 0,
+    height          : '50dp',
+    backgroundColor : '#CC303B3E', //CC -> alpha channel value.  CC == 80%
+    font            : {
+        fontSize   : Alloy.Globals.headingSize,
+        fontFamily : Alloy.Globals.schoolsFont
+    }
+},
+"#footerLabel" : {
+    color : '#FFF',
+    font  : {
+        fontSize   : Alloy.Globals.headingSize,
+        fontFamily : Alloy.Globals.schoolsFont
+    }
+},
+"#backgroundImage" : {
+    top             : '50dp',
+    bottom          : '50dp',
+    left            : 0,
+    right           : 0,
+    height          : Ti.UI.FILL,
+    width           : Ti.UI.FILL,
+    zIndex          : 1,
+    backgroundImage : '/images/BigginHill_scavengerHunt_background1_1280x800.png',
+},
+"#canvas" : {
+    top             : '50dp',
+    bottom          : '50dp',
+    left            : 0,
+    right           : 0,
+    height          : Ti.UI.FILL,
+    width           : Ti.UI.FILL,
+    zIndex          : 10,
+    layout          : 'vertical',
+    borderWidth     : '2dp',
+    borderColor     : '#000000',
+    backgroundColor : 'transparent',
+},
+".gridRow" : {
+    top    : 0,
+    bottom : 0,
+    left   : 0,
+    right  : 0,
+    width  : Ti.UI.FILL,
+    layout : 'horizontal',
+    zIndex : 20,
+},
+".gridCell" : {
+    top         : 0,
+    bottom      : 0,
+    left        : 0,
+    right       : 0,
+    zIndex      : 30,
+    borderWidth : '1dp',
+    borderColor : '#000',
+}

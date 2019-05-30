@@ -1,0 +1,17 @@
+<Alloy>
+    <Window>
+
+        <View id="pageWrapper" class="container"> <!-- composite layout -->
+            <View id="titleBar">
+                <Label id="titleLabel">Geoff's scavenger hunt</Label>
+            </View>
+
+            <View id="backgroundImage"></View>
+            <View id="canvas" onPostlayout="measureCanvas"></View>
+
+            <View id="footerBar">
+                <Require type="view" src="school/bottomMenu" />
+            </View>
+        </View>
+    </Window>
+</Alloy>
